@@ -1,0 +1,11 @@
+külső margó=margin*
+bal=margin left
+jobb=margin right
+szöveg fölötti égér szin=nav-link:hover{}*
+dölt=b*(font-weight--bold)
+félkövér=i*(font-style--italic)
+bootstrap dobozok
+col-md-6 col-lg-3
+col-md-3 col-6
+lekerekített keret=border-radius
+style="border-bottom:
