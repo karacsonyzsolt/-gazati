@@ -1,0 +1,32 @@
+
+
+import datetime
+
+def current_time() -> list[int,int]:
+    hour=datetime.datetime.now().hour
+    minute=datetime.datetime.now().minute
+    return[hour,minute]
+
+
+
+
+def time_input(a,min,max):
+    ertek=int(input(a))
+    while ertek<min or ertek>max:
+        print(f"Megadott érték nem megfelelő, {min} és {max} közötti értéket adjon meg!")
+        ertek=int(input(a))
+    return ertek
+
+ora=time_input("Adja meg az órát: ",0,23)
+perc=time_input("Adja meg a percet: ",0,59)
+ido=ora*60+perc
+
+current=current_time()
+printf"Az aktuális idő: {current[0]}:{current[1]}")
+akt ido=current[0]*60+current[1]
+
+if akt ido>ido:
+    print("A vizsga már véget ért.")
+else:
+    printf"A vizsga végéig hátralévő idő: {ido-akt ido} perc")
+
